@@ -77,7 +77,7 @@ function loadWidget(config) {
 			Live2D.captureFrame = true;
 		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
-			open("http:rbaobei.top.bt/gy.html");
+			open("bt/gy.html");
 		});
 		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
